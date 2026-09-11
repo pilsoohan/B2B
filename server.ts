@@ -338,6 +338,9 @@ ${JSON.stringify(projectBundle, null, 2)}
     }
   });
 
+  // Serve static files from public directory (e.g. og-image.jpg)
+  app.use(express.static(path.join(process.cwd(), "public")));
+
   // Vite middleware setup
   if (process.env.NODE_ENV !== "production") {
     const vite = await createViteServer({
