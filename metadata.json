@@ -1,0 +1,6 @@
+{
+  "name": "B2B 가구 프로젝트 매니저",
+  "description": "가구 브랜드 B2B 클라이언트 상담 녹음 분석 및 프로젝트·견적·태스크 관리 도구",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
